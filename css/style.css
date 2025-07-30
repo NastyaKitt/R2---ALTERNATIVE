@@ -253,6 +253,13 @@ header {
         width: 25rem;
     }
 }
+.tableTwoGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 47%;
+}
 .tableTwo, .tableTwo img, .tableTwo video {
     opacity: 0;
     transform: translateY(100px);
